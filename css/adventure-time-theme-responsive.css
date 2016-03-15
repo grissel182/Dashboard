@@ -1,0 +1,13 @@
+@media screen and (max-width: 767px) {
+	.formulario{
+	width: 90%;
+	margin-left: 5%;
+	padding: 0px;
+	border-radius: 10px;
+	margin-top: 25px;
+
+}
+	.btn{
+		margin: 5px;
+	}
+}

@@ -1,0 +1,277 @@
+/*No tocar este codigo*/ 
+.sidebar-closed > #sidebar > ul {
+    display: none;
+}
+
+.sidebar-closed #main-content {
+    margin-left: 0px;
+}
+
+.sidebar-closed #sidebar {
+    margin-left: -180px;
+}
+/*prueba ////////*/
+/*.sidebar-open #main-content {
+    margin-left: 180px;
+}
+*/
+/*header*/
+.container-fluid{
+	margin-right: 0px  !important;
+  	margin-left: -15px  !important;
+}
+header{
+	width: 100%;
+}
+*{
+	color: #8F8F8F;
+}
+#container{
+	background-color: #EFEEEE;
+	width: 100%;
+}
+#main-content{
+	margin-left: 210px;
+}
+.black-bg{
+	background-color: #39277A;
+	height: 60px;
+	padding: 15px;
+	border-bottom: 1px solid #1B193A;
+	position: fixed;
+	width: 100%;
+	z-index: 100;
+}
+.sidebar-toggle-box{
+	color: white;
+	padding-left: 10px;
+	font-size: 20px;
+	float: left;
+}
+.fs20{
+	font-size: 20px;
+}
+.white{
+	color: white;
+}
+.logo{
+	text-decoration: none;
+	padding-left: 10px;
+	float: left;
+}
+.top-menu{
+	background-color: #B034E4;
+	color: white;
+	border-radius: 10px;
+	margin-top: -5px;
+
+}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  text-decoration: none;
+  background-color: pink !important ;
+  border-radius: 10px !important;
+  color: white !important;
+}
+/*:hover.nav{
+	border-radius: 10px !important;
+	background-color: pink;
+}*/
+.top-menu a{
+	text-decoration: none;
+}
+.gray{
+	color: #8F8F8F;
+}
+.fs50{
+	font-size: 50px;
+}
+/*menu lado/////*/
+
+#sidebar{
+	background-color: #39277A;
+	padding: 20px;
+	height: 100%;
+	position: fixed;
+	padding-left: 0px;
+	width: 210px;
+	display: block;
+	margin-top: 60px;
+}
+.sidebar-menu{
+	margin: 0px;
+	padding: 10px;
+}
+
+a{
+	text-decoration: none !important;
+}
+.sub-menu{
+	text-decoration: none;
+	list-style-type: none;
+	color: #929191;
+	background-color:none;
+	padding-left: 00px;
+}
+.sub-menu:hover{
+	background-color: #B034E4;
+	color: white;
+}
+.sub-menu:hover i{
+	color: white;
+}
+.sub-menu span{
+	color: #929191;
+}
+.sub-menu:hover span{
+	color: white;
+}
+.sub-menu a{
+	text-decoration: none;
+}
+aside li {
+	padding: 10px 15px;
+	margin: 10px 0px;
+}
+aside{
+	width: 200px;
+}
+.ml-5{
+	margin-left: 20px;
+}
+/*seccion*/
+.wrapper{
+	background-color: #EFEEEE;
+	padding-top: 60px;
+	padding-left: 15px;
+	width: 100%;
+	margin: auto;
+}
+.ds{
+	background-color: white;
+
+}
+.title{
+	background-color: #B034E4;
+	text-align: center;
+	color: white;
+	padding:20px 0px;
+}
+.ml-10{
+	margin-left: 10px;
+}
+/*hover bboxes*/
+.red{
+	color: red;
+	display: none;
+	z-index: 10;
+}
+.box0{
+	margin-top: 30px;
+}
+.box0:hover .red{
+	display: block;
+}
+.box0:hover{
+	background-color: white;
+	-webkit-box-shadow: 1px 6px 8px -1px rgba(153,150,153,0.42);
+	-moz-box-shadow: 1px 6px 8px -1px rgba(153,150,153,0.42);
+	box-shadow: 1px 6px 8px -1px rgba(153,150,153,0.42);
+}
+.box1:hover{
+	border-bottom: none;
+}
+.fs10{
+	font-size: 10px;
+}
+
+
+
+/*boxes -iconos*/
+
+.box1{
+	padding-top: 28px;
+	margin-top: 5px;
+	border-bottom: 1px solid #B7B5B5;
+}
+.blue{
+	color: #38A2E5;
+}
+/*derecha*/
+.badge{
+	background-color: #2AA9FA !important;
+	color: white !important;
+}
+.desc .fa{
+	color: white !important;
+}
+.thumb{
+	float: left;
+}
+.details{
+	margin-left: 2%;
+	display: inline-block;
+	width: 70%;
+}
+.desc{
+	margin:20px 0px; 
+	border-bottom: 1px solid #C1C1C1;
+}
+
+/*videos*/
+.showback{
+	background-color: white;
+	padding: 15px;
+	margin: 10px 0px;
+	-webkit-box-shadow: 0px 5px 8px 0px rgba(153,150,153,0.42);
+-moz-box-shadow: 0px 5px 8px 0px rgba(153,150,153,0.42);
+box-shadow: 0px 5px 8px 0px rgba(153,150,153,0.42);
+}
+
+
+/*galeria////////////*/
+.descu{
+	margin:20px 0px; 
+
+}
+
+/*/*formulario*/
+.formulario{
+	width: 40%;
+	margin-left: 30%;
+	padding: 0px;
+	border-radius: 10px;
+	margin-top: 25px;
+	background-color: white;
+
+}
+.azul{
+	background-color: #35C5F4;
+	width: 100%;
+	height: 15%;
+	padding-top: 15px;
+	border-radius: 10px 10px 0px 0px;
+}
+.login-wrap{
+	background-color: white;
+	margin: 15px;
+
+}
+.form-login-heading{
+	text-transform: uppercase;
+	text-align: center;
+	color: white;
+	margin-bottom: 25px;
+}
+
+/*modal*/
+.bg-modal-blue{
+	background-color: #3DB8F1;
+}
+/*fondo de login*/
+.fondo-gris{
+	background-color: #EFEEEE;
+}
+.login-wrap{
+	background-color: white;
+}
